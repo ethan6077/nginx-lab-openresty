@@ -15,6 +15,12 @@ docker build -t nginx-lab-openresty .
 docker run --name nginx-lab-openresty -d -p 8080:80 nginx-lab-openresty
 ```
 
+## Run in docker-compose
+
+```bash
+docker-compose up -d --build app
+```
+
 
 ## To Access nginx
 
