@@ -27,5 +27,5 @@ docker-compose up -d --build app
 Go to
 
 ```url
-http://localhost:8080/
+http://localhost:8080/hello
 ```
